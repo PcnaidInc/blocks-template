@@ -37,6 +37,10 @@ Visit [githubnext/blocks](https://blocks.githubnext.com/githubnext/blocks) for a
 You should also join us in our discord! There's a [#blocks channel](https://discord.com/channels/735557230698692749/1039950186136469535) where you can connect with us and other folks who are building Blocks:
 
 > 👋 https://discord.gg/githubnext
+## CI
+
+A CI workflow runs on every pull request and push to `main`. It performs a TypeScript typecheck (`tsc --noEmit`) and a production build (`yarn build`).
+
 ## License
 
 MIT
